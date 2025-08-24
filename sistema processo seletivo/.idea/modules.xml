@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/sistema processo seletivo.iml" filepath="$PROJECT_DIR$/sistema processo seletivo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/controle-candidatos.iml" filepath="$PROJECT_DIR$/controle-candidatos.iml" />
     </modules>
   </component>
 </project>

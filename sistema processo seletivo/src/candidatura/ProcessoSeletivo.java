@@ -14,9 +14,12 @@ public class ProcessoSeletivo {
 
     public static void main(String[] args) {
         Scanner leia = new Scanner(System.in);
-        double salarioBase = 2000, salarioPretendido;
         System.out.println("Digite o salário pretendido:");
-        salarioPretendido = leia.nextDouble();
+        analisarCandidato(leia.nextDouble());
+        leia.close();
+    }
+    public static void analisarCandidato(double salarioPretendido){
+        double salarioBase = 2000.0;
         if (salarioBase > salarioPretendido) {
             System.out.println("LIGAR PARA O CANDIDATO");
         } else if (salarioBase == salarioPretendido) {
@@ -24,6 +27,5 @@ public class ProcessoSeletivo {
         } else {
             System.out.println("AGUARDANDO RESULTADO DEMAIS CANDIDATOS");
         }
-        leia.close();
     }
 }
